@@ -1,0 +1,92 @@
+  
+  /* header style */
+  .header {
+    background-color: #95B8D1;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  /* cleans up after heading */
+  .header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* input styling */
+  input {
+    width: 75%;
+    padding: 12px;
+    float: center;
+    font-size: 18px;
+  }
+  
+  /* new item button styling */
+  .newItem {
+    color: rgb(255, 255, 255);
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 565px;
+    padding: 10px;
+    width: 10%;
+    background: #666A86;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 40px;
+  }
+  
+  /* hovering over new item button */
+  .newItem:hover {
+    background-color: #383a49;
+  }
+  
+  /* spacing for list */
+  ul {
+    padding: 0;
+    margin-top: 10px;
+    margin-left: 210px;
+  }
+  
+  
+  /* design list items */
+  ul li {
+    margin-top: 10px;
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #ebe1bf;
+    font-size: 18px;
+    transition: 0.2s;
+    width: 400px;
+  }
+
+  /* create columns for different tasks */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+  }
+  
+  /* darker when hovering over list */
+  ul li:hover {
+    background: #c2b99e;
+  }
+  
+  /* strike out text when it's done */
+  ul li.completed {
+    background: #333333;
+    color: #fff;
+    text-decoration: line-through;
+  }
+
+  .ul2 li .completed {
+    background: #333333;
+    color: #fff;
+    text-decoration: line-through;
+  }
+  
+  
+  
